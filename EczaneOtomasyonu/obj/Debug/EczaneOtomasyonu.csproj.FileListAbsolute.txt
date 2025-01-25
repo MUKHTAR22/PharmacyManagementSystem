@@ -1,0 +1,13 @@
+C:\Users\Mukhtar\onedrive\documents\visual studio 2015\Projects\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Form1.resources
+C:\Users\Mukhtar\onedrive\documents\visual studio 2015\Projects\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.ManageMedicinesForm.resources
+C:\Users\Mukhtar\onedrive\documents\visual studio 2015\Projects\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.mainMenu.resources
+C:\Users\Mukhtar\onedrive\documents\visual studio 2015\Projects\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.csproj.GenerateResource.Cache
+C:\Users\Mukhtar\onedrive\documents\visual studio 2015\Projects\EczaneOtomasyonu\EczaneOtomasyonu\bin\Debug\EczaneOtomasyonu.exe.config
+C:\Users\Mukhtar\onedrive\documents\visual studio 2015\Projects\EczaneOtomasyonu\EczaneOtomasyonu\bin\Debug\EczaneOtomasyonu.exe
+C:\Users\Mukhtar\onedrive\documents\visual studio 2015\Projects\EczaneOtomasyonu\EczaneOtomasyonu\bin\Debug\EczaneOtomasyonu.pdb
+C:\Users\Mukhtar\onedrive\documents\visual studio 2015\Projects\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.Properties.Resources.resources
+C:\Users\Mukhtar\onedrive\documents\visual studio 2015\Projects\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.exe
+C:\Users\Mukhtar\onedrive\documents\visual studio 2015\Projects\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.pdb
+C:\Users\Mukhtar\onedrive\documents\visual studio 2015\Projects\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.csprojResolveAssemblyReference.cache
+C:\Users\Mukhtar\onedrive\documents\visual studio 2015\Projects\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.SalesForm.resources
+C:\Users\Mukhtar\onedrive\documents\visual studio 2015\Projects\EczaneOtomasyonu\EczaneOtomasyonu\obj\Debug\EczaneOtomasyonu.ReportsForm.resources

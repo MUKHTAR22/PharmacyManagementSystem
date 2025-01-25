@@ -1,0 +1,69 @@
+Eczane Otomasyonu Projesi
+
+Bu proje, bir eczanenin stok yönetimi, satış işlemleri ve müşteri bilgilerini kolayca takip edebilmesi için geliştirilmiştir.
+
+Kullanıcı Girişi:
+   - Kullanıcı Adı: admin  
+   - Şifre: 12345
+
+anlatım videosu: https://youtu.be/BtQWVhuJeY0
+
+Projenin Çalıştırılması
+
+ 1. Veritabanının Kurulumu
+- SQL Server Management Studio'yu açın.
+- Proje dosyasında bulunan `PharmacyDB.bak` yedek dosyasını içe aktararak veritabanını oluşturun:
+  1. SSMS'de Databases üzerine sağ tıklayın ve Restore Database seçeneğini seçin.
+  2. Device seçeneğini seçin ve yedek dosyasını bulun (PharmacyDB.bak).
+  3. İşlemi tamamlayarak veritabanını yükleyin.
+
+2. Visual Studio'da Projenin Çalıştırılması
+1. EczaneOtomasyonu.sln dosyasını Visual Studio'da açın.
+2. App.config dosyasını düzenleyerek SQL Server bağlantı dizesini ayarlayın:
+   xml
+   <connectionStrings>
+       <add name="PharmacyDB"
+            connectionString="Server=(LocalDB)\MSSQLLocalDB;Database=PharmacyDB;Trusted_Connection=True;" />
+   </connectionStrings>
+
+Veritabanı Yedeği:  
+Veritabanı yedek dosyası (PharmacyDB.bak), Database klasöründe bulunmaktadır.  
+Projeyi çalıştırmadan önce SQL Server Management Studio'yu kullanarak bu dosyayı geri yükleyin.
+
+
+  Projenin Özellikleri
+1. İlaç Yönetimi:
+   - Yeni ilaç ekleyebilir, mevcut ilaçları güncelleyebilir veya silebilirsiniz.
+   - Düşük stok uyarılarıyla kritik stok seviyelerini takip edebilirsiniz.
+
+2. Satış Yönetimi:
+   - Sepete ilaç ekleyip satış işlemini tamamlayabilirsiniz.
+   - Satış sonrası stoklar otomatik güncellenir.
+
+3. Müşteri Yönetimi:
+   - Yeni müşteriler ekleyebilir, mevcut müşteri bilgilerini kullanarak satış yapabilirsiniz.
+
+4. Raporlama:
+   - Satış özetlerini, düşük stok uyarılarını ve stok yenileme geçmişini görüntüleyebilirsiniz.
+
+
+
+   Veritabanı Kullanımı
+
+- Stored Procedures (SP):
+  - AddMedicine, UpdateMedicine, DeleteMedicine, AddSale, CheckLowStock.
+
+- Triggers (TRG):
+  - logstockrefill, lowstockalert, updatestockonsale.
+
+- Fonksiyonlar (FN):
+  - fn_TotalSales, fn_CountUnderstockedMedicines, fn_TotalCustomers, fn_MostSoldMedicine.
+
+- View:
+  - vw_SalesSummary: Satış özetini görüntülemek için kullanılır.
+
+
+
+ Geliştirici
+- Ad Soyad: [Mukhtar Mohamed Ibrahim]
+-ögrenciNo: [210707103]
